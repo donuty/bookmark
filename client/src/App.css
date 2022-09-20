@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@300&family=Playfair+Display:wght@600&family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat';
+  background-color: plum;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  background-color: palevioletred;
+}
+
+.App {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Header {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.Header h1 {
+  background-color: peru;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+
+}
+
+p {
+  font-size: small;
+  font-style: italic;
+  padding: 5px;
+  background-color: palevioletred;
+}
+.Search {
+  padding: 20px;
+}
+.Search h3 {
+  background-color: rosybrown;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+}
+
+.BookList {
+  padding-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+.BookList h3 {
+  background-color: thistle;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+}
+
+.BookList h4 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  background-color: palevioletred;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.BookList h5 {
+  padding: 20px;
+  padding-top: 15px;
+}
+
+.EachBook {
+  padding-top: 30px;
+}
+.Form {
+  padding-top: 0px;
+  flex: auto;
+  background-color: rosybrown;
+}
+
+/*
+<!-- HTML !-->
+<button class="button-54" role="button">Button 54</button> */
+
+/* CSS */
+.button-54 {
+  background-color: cornsilk;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 5px;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 10px;
+  max-height: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display:inline
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.CheckBox {
+  display:inline;
+  background-color: rosybrown;
+}
+
+input[type=checkbox] {
+  outline-color:transparent;
+  accent-color: #9b59b6;
+
+}
