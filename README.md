@@ -1,5 +1,4 @@
-# bookmark
-A Way To Search Authors Books through the New York Times
+# Bookmark:  An Application for Searching Author Books through the New York Times
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-w2HLETgMG8
 " target="_blank"><img src="https://github.com/donuty/bookmark/blob/main/bookmarkappscreenshot.png?raw=true" 
